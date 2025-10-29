@@ -6,7 +6,7 @@
   <title>Prudhvi Kumar | Portfolio</title>
   <link rel="icon" href="https://static.vecteezy.com/system/resources/previews/054/250/261/non_2x/book-icon-design-symbol-vector.jpg">
   <style>
-    /* Reset */
+    
     * {
       margin: 0;
       padding: 0;
@@ -20,7 +20,7 @@
       line-height: 1.6;
     }
 
-    /* Header / Navbar */
+    
     header {
   background: #333;
   color: white;
@@ -71,7 +71,7 @@
   color: #00bcd4;
     }
 
-    /* Layout */
+    
     main {
       display: flex;
       flex-wrap: wrap;
@@ -88,7 +88,7 @@
 
     
 
-    /* Footer */
+    
     footer {
       text-align: center;
       padding: 15px;
@@ -99,7 +99,7 @@
     .sidebar {
       position: fixed;
       top: 0;
-      left: -250px; /* hidden at first */
+      left: -250px; 
       width: 250px;
       height: 100%;
       background: #333;
@@ -110,7 +110,7 @@
       z-index: 1000;
     }
     .sidebar.active {
-      left:0; /* show sidebar */
+      left:0; 
     }
     .sidebar a {
       display: block;
@@ -123,7 +123,7 @@
       background: #444;
     }
 
-    /* ====== Close Button ====== */
+    
     .close-btn {
       position: absolute;
       top: 18px;
@@ -135,7 +135,7 @@
     .sidebar {
       position: fixed;
       top: 0;
-      left: -250px; /* hidden at first */
+      left: -250px; 
       width: 250px;
       height: 100%;
       background: #333;
@@ -147,7 +147,7 @@
       
     }
     .sidebar.active {
-      left:0; /* show sidebar */
+      left:0; 
     }
     .sidebar a {
       display: block;
@@ -160,7 +160,6 @@
       background: #444;
     }
 
-    /* ====== Close Button ====== */
     .close-btn {
       position: absolute;
       top: 18px;
@@ -248,9 +247,7 @@
   
 }
 
-/* 📱 Mobile View (max-width: 768px) */
 @media (max-width: 768px) {
-  /* Header adjustments */
   .header-container {
     flex-wrap: wrap;
     justify-content: space-between;
@@ -276,18 +273,17 @@
     font-size: 0.95rem;
   }
 
-  /* Sidebar */
   .sidebar {
     width: 220px;
   }
 
-  /* Main content box */
   .box {
-    width: 85%;
-    padding: 25px;
+    width: 90%;
+    padding: 30px;
+    margin: auto;
+    border-radius: 12px;
   }
 
-  /* Home slidebar */
   .homeslidebar {
     width: 80%;
     border-radius: 8%;
@@ -308,7 +304,6 @@
     font-size: 1rem;
   }
 
-  /* Email container */
   #email {
     flex-direction: column;
     gap: 8px;
@@ -325,18 +320,14 @@
     font-size: 1rem;
   }
 
-  /* Cards */
   .card {
     width: 90%;
   }
 
-  /* Footer */
   footer {
     font-size: 0.9rem;
     padding: 12px;
   }
-
-  /* Social icons */
   .social-icons {
     gap: 18px;
   }
@@ -378,7 +369,7 @@
   }
 
   .box {
-    width: 90%;
+    width: 95%;
     padding: 20px;
   }
 
@@ -519,7 +510,7 @@
     transition: color .18s ease;
   }
 
-  /* progress area */
+  
   .progress{
     height:10px;
     background: #eef2ff;
@@ -530,14 +521,13 @@
 
   .progress .bar{
     height:100%;
-    width:0%; /* animated to var(--p) on hover */
+    width:0%; 
     border-radius:999px;
     position:relative;
     transition: width .9s cubic-bezier(.2,.9,.2,1);
     background-image: linear-gradient(90deg, var(--accent), rgba(79,70,229,0.85));
   }
 
-  /* overlay that appears on hover showing percentage visually and numerically */
   .overlay{
     position:absolute;
     inset:0;
@@ -566,20 +556,16 @@
     text-align:center;
   }
 
-  /* support to use custom percentage via CSS variable: --p */
-  /* When not hovered, bar width stays 0. When hovered, set width to var(--p) */
   .skill:hover .bar{
     width: var(--p, 0%);
   }
 
-  /* make the numeric count visible on hover (it will animate by JS) */
   .count{
     color:var(--accent);
     display:inline-block;
     min-width:36px;
   }
 
-  /* small responsive tweaks */
   @media (max-width:420px){
     .skill{ padding:14px; }
     .skill-name{ font-size:0.95rem; }
@@ -708,9 +694,9 @@
         <div class="container">
             <h1>𝑴𝒚 𝑺𝒌𝒊𝒍𝒍𝒔</h1>
 
-            <!-- GRID -->
+            
             <div class="skills-grid">
-            <!-- Example skill card: set percentage with style="--p:90%" -->
+            
               <div class="skill" style="--p:90%">
                   <div class="skill-top">
                   <div class="skill-name"><b>𝗣𝘆𝘁𝗵𝗼𝗻</b></div>
@@ -828,7 +814,7 @@
     </div>
   </main>
 
-  <!-- Footer -->
+ 
   <footer style="margin-top: 5%;">
     <p>»»»@»»» █▓▒▒░░░2025░░░▒▒▓█ ͓̽P͓͓̽̽r͓͓̽̽u͓͓̽̽d͓͓̽̽h͓͓̽̽v͓͓̽̽i͓͓̽̽K͓͓̽̽u͓͓̽̽m͓̽a͓͓̽̽𝖗 |𝖕𝖔𝖗𝖙𝖋𝖔𝖑𝖎𝖔</p>
   </footer>

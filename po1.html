@@ -20,7 +20,7 @@
       line-height: 1.6;
     }
 
-    /* Header / Navbar */
+  
     header {
   background: #333;
   color: white;
@@ -71,7 +71,7 @@
   color: #00bcd4;
     }
 
-/* Responsive but same layout */
+
 @media (max-width: 600px) {
   .header-container {
     flex-wrap: wrap;
@@ -103,7 +103,7 @@
   }
 
   .box {
-    width: 90%;
+    width: 95%;
     padding: 20px;
   }
   footer {
@@ -111,7 +111,7 @@
     padding: 10px;
   }
 }
-    /* Layout */
+
     main {
       display: flex;
       flex-wrap: wrap;
@@ -128,7 +128,7 @@
 
     
 
-    /* Footer */
+  
     footer {
       text-align: center;
       padding: 15px;
@@ -141,7 +141,7 @@
     .sidebar {
       position: fixed;
       top: 0;
-      left: -250px; /* hidden at first */
+      left: -250px; 
       width: 250px;
       height: 100%;
       background: #333;
@@ -152,7 +152,7 @@
       z-index: 1000;
     }
     .sidebar.active {
-      left:0; /* show sidebar */
+      left:0; 
     }
     .sidebar a {
       display: block;
@@ -165,7 +165,6 @@
       background: #444;
     }
 
-    /* ====== Close Button ====== */
     .close-btn {
       position: absolute;
       top: 18px;
@@ -316,7 +315,7 @@
 
 @media (max-width: 480px) {
   .skills-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 15px;
   }
 
@@ -362,7 +361,7 @@
 
  html {
     scroll-behavior: smooth;
-    scroll-padding-top: 80px; /* header height */
+    scroll-padding-top: 80px;
   }
 
 
@@ -389,7 +388,7 @@
   }
 }
 
-/* 🔹 Extra Small Devices (Below 480px) */
+
 @media (max-width: 480px) {
   header h1 {
     font-size: 1.4rem;
@@ -410,7 +409,7 @@
   }
 
   .skill-card {
-    flex: 1 1 calc(45% - 20px); /* 2 per row */
+    flex: 1 1 calc(45% - 20px);
     padding: 20px;
   }
 
@@ -517,8 +516,10 @@
 
 
   .box {
-    width: 85%;
-    padding: 25px;
+    width: 90%;
+    padding: 30px;
+    margin: auto;
+    border-radius: 12px;
   }
 
 
@@ -604,7 +605,6 @@
   </div>
 </header>
 
-  <!-- Main Layout -->
    
   <main >
     <div id="home" class="home" style="width: 97%; height: 78%; background-image: url(https://wallpaperaccess.com/full/5651978.png); border-radius: 20%; background-color:#333; border-radius: 12px;cursor: pointer; font-weight: bold;margin: 0 15px; box-shadow: 2px 2px 5px; border-bottom-right-radius: 100%; border-top-right-radius:100%; border-bottom-left-radius: 5%; border-top-left-radius: 5%; margin-top: 5%;">
@@ -619,8 +619,7 @@
         </section>
     </div>
 
-    
-    <!-- Sidebar -->
+   
     <div class="sidebar" id="sidebar">
       <img src="kumar1.jpg" alt="image" width="50%" height="30%" style="float: center; border-radius: 150%; margin-left: 25%;" >
       <span class="close-btn" id="closeBtn">&times;</span>
